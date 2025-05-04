@@ -1,11 +1,23 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
+import { TranslateService, TranslateModule } from '@ngx-translate/core';
+import { NavComponent } from "./components/nav/nav.component";
+
+
+export const routes: Routes = [
+  { path: '', loadComponent: () => import('./components/home-page/home-page.component').then(m => m.HomePageComponent) },
+  { path: 'about', loadComponent: () => import('./components/about/about.component').then(m => m.AboutComponent)}
+];
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
+  imports: [
+    RouterModule,
+    NavComponent
+],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
   title = 'french-school';

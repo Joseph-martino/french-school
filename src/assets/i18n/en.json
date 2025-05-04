@@ -1,0 +1,31 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "contact": "Contact"
+    },
+    "homePage": {
+        "title": "Welcome to my FLE website",
+        "description": {
+            "greeting": "Let's get <span class='highlight'>to know each other!</span>",
+            "presentation": "My name is Toto and I am your French teacher, a qualified specialist from the Sorbonne and a DEFL/DALF examiner with over 8 years of experience.",
+            "button": "See more"
+        },
+        "servicesSection": {
+            "title": "Course",
+            "subTitle": "Choose a course format that suits yout",
+            "groupLessonCardTitle": "Group lessons",
+            "groupLessonCardContent": "The most effective way to learn French is in a small, friendly company..",
+            "individualLessonCardTitle": "Private lessons",
+            "individualLessonCardContent": "Choose a schedule and class pace that suits you! A fully personalized program...",
+            "delfDalfPreparationLessonTitle": "Preparation for DELF/DALF",
+            "delfDalfPreparationLessonContent" :"This course will allow you to prepare for the exam as quickly as possible and obtain the coveted diploma...",
+            "businessLessonTitle": "Business French",
+            "businessLessonContent": "This course will help you develop your professional communication skills, learn everything about business correspondence in French companies...",
+            "studentReviewTitle": "Student Reviews",
+            "studentReviewSubtitle": "Student opinion matters"
+            
+        }
+    }
+}

@@ -1,0 +1,13 @@
+<nav>
+    <ul>
+        <li>{{ 'nav.home' | translate }}</li>
+        <li>{{ 'nav.about' | translate }}</li>
+        <li>{{ 'nav.services' | translate }}</li>
+        <li>{{ 'nav.contact' | translate }}</li>
+    </ul>
+</nav>
+
+<button (click)="switchLang('fr')">FR</button>
+<button (click)="switchLang('en')">EN</button>
+<button (click)="switchLang('ja')">JP</button>
+<button (click)="switchLang('ru')">RU</button>

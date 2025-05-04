@@ -1,0 +1,31 @@
+{
+    "nav": {
+        "home": "ホーム",
+        "about": "について",
+        "services": "サービス",
+        "contact": "コンタクト"
+    },
+    "homePage": {
+        "title": "FLEのサイトへようこそ",
+        "description": {
+            "greeting": "お互いを<span class='highlight'>知りましょう</span>",
+            "presentation": "私の名前はトトです。私はフランス語の先生で、ソルボンヌ大学の資格を持った専門家であり、8 年以上の経験を持つ DEFL/DALF 試験官です",
+            "button": "もっと詳しく知る"
+        },
+        "servicesSection": {
+            "title": "コース",
+            "subTitle": "自分に合ったコース形式を選択してください",
+            "groupLessonCardTitle": "グループレッスン",
+            "groupLessonCardContent": "フランス語を学ぶ最も効果的な方法は、小規模でフレンドリーな会社で学ぶことです...",
+            "individualLessonCardTitle": "プライベートレッスン",
+            "individualLessonCardContent": "自分に合ったスケジュールと授業ペースを選んでください！完全にパーソナライズされたプログラム...",
+            "delfDalfPreparationLessonTitle": "DELF/DALF準備",
+            "delfDalfPreparationLessonContent" :"このコースを受講すれば、できるだけ早く試験の準備をし、切望されるディプロマを取得できます...",
+            "businessLessonTitle": "ビジネスフランス語",
+            "businessLessonContent": "このコースは、専門的なコミュニケーションスキルを養い、フランス企業におけるビジネス通信に関するあらゆることを学ぶのに役立ちます...",
+            "studentReviewTitle": "学生のレビュー",
+            "studentReviewSubtitle": "学生の意見は重要"
+            
+        }
+    }
+}

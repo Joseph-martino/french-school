@@ -1,0 +1,21 @@
+
+<h1>{{ 'homePage.title' | translate }}</h1>
+<p [innerHTML]="'homePage.description.greeting'| translate"></p>
+<p>{{ 'homePage.description.presentation'| translate }}</p>
+<button (click)="onGoToAbout()">{{ 'homePage.description.button' | translate }}</button>
+
+<section class="course-section">
+  <h2>{{ 'homePage.servicesSection.title' | translate }}</h2>
+  <p>{{ 'homePage.servicesSection.subTitle' | translate }}</p>
+  <div class="card-container">
+      <div class="card-container">
+        <h2 class="card-title">{{'homePage.servicesSection.groupLessonCardTitle' | translate }}</h2>
+        <p class="card-content">{{'homePage.servicesSection.groupLessonCardContent' | translate }}</p>
+        <button>{{ 'homePage.description.button' | translate }}</button>
+    </div>
+  </div>
+  <section class="user-review-container">
+    <h2>{{ 'homePage.servicesSection.studentReviewTitle' | translate }}</h2>
+    <p>{{ 'homePage.servicesSection.studentReviewSubtitle' | translate }}</p>
+  </section>
+</section>

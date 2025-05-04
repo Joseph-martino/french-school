@@ -1,0 +1,31 @@
+{
+    "nav": {
+        "home": "дом",
+        "about": "о",
+        "services": "услуги",
+        "contact": "контакт"
+    },
+    "homePage": {
+        "title": "Добро пожаловать на сайт FLE",
+        "description": {
+            "greeting": "Давайте <span class='highlight'>знакомиться!</span>",
+            "presentation": "Меня зовут Toto и я - ваш преподаватель французского, дипломированный специалист из Сорбонны и экзаменатор DEFL/DALF с более чем 8-летним опытом.",
+            "button": "Подробнее"
+        },
+        "servicesSection": {
+            "title": "КУРСЫ",
+            "subTitle": "Выберите для себя удобный формат занятий",
+            "groupLessonCardTitle": "Групповые занятия",
+            "groupLessonCardContent": "Cамый эффективный способ учить французский в маленькой душевной компании...",
+            "individualLessonCardTitle": "Индивидуальные занятия",
+            "individualLessonCardContent": "Выбирай удобное для тебя время и темп занятий! Полностью индивидуализированная программа...",
+            "delfDalfPreparationLessonTitle": "Подготовка к DELF/DALF",
+            "delfDalfPreparationLessonContent" :"Этот курс позволит тебе подготовиться к экзамену в кратчайшие сроки и получить заветный диплом...",
+            "businessLessonTitle": "Деловой французский",
+            "businessLessonContent": "Данный курс поможет Вам развить профессиональные навыки общения, узнать всё о ведении деловой переписки во французских компаниях...",
+            "studentReviewTitle": "ОТЗЫВЫ УЧЕНИКОВ",
+            "studentReviewSubtitle": "Мнение студентов важно"
+            
+        }
+    }
+}

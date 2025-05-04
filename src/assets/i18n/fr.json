@@ -1,0 +1,31 @@
+{
+    "nav": {
+        "home": "Accueil",
+        "about": "À propos",
+        "services": "Services",
+        "contact": "contact"
+    },
+    "homePage": {
+        "title": "Bienvenue sur le site FLE",
+        "description": {
+            "greeting": "Faisons <span class='highlight'>connaissance !</span>",
+            "presentation": "Je m'appelle Toto et je suis votre professeur de français, spécialiste qualifié de la Sorbonne et examinateur DEFL/DALF avec plus de 8 ans d'expérience.",
+            "button": "En savoir plus"
+        },
+        "servicesSection": {
+            "title": "Cours",
+            "subTitle": "Choisissez un format de cours qui vous convient",
+            "groupLessonCardTitle": "Cours collectifs",
+            "groupLessonCardContent": "La façon la plus efficace d'apprendre le français est dans une petite entreprise conviviale...",
+            "individualLessonCardTitle": "Cours particuliers",
+            "individualLessonCardContent": "Choisissez un horaire et un rythme de cours qui vous conviennent ! Un programme entièrement personnalisé...",
+            "delfDalfPreparationLessonTitle": "Préparation au DELF/DALF",
+            "delfDalfPreparationLessonContent" :"Ce cours vous permettra de vous préparer à l'examen dans les plus brefs délais et d'obtenir le diplôme tant convoité...",
+            "businessLessonTitle": "Français des affaires",
+            "businessLessonContent": "Ce cours vous aidera à développer vos compétences en communication professionnelle, à tout apprendre sur la correspondance commerciale dans les entreprises françaises...",
+            "studentReviewTitle": "Avis des étudiants",
+            "studentReviewSubtitle": "L'opinion des étudiants est importante"
+            
+        }
+    }
+}
