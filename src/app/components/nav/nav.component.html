@@ -1,13 +1,17 @@
 <nav>
     <ul>
-        <li>{{ 'nav.home' | translate }}</li>
+        <li><a (click)="onGoToHomePage()">{{ 'nav.home' | translate }}</a></li>
         <li>{{ 'nav.about' | translate }}</li>
         <li>{{ 'nav.services' | translate }}</li>
         <li>{{ 'nav.contact' | translate }}</li>
+        <li>
+            <select name="lang" id="lang" [value]="translate.currentLang" (change)="switchLang($event)">
+                <option value="fr">FR</option>
+                <option value="en">EN</option>
+                <option value="ja">JP</option>
+                <option value="ru">RU</option>
+            </select>
+        </li>
     </ul>
 </nav>
 
-<button (click)="switchLang('fr')">FR</button>
-<button (click)="switchLang('en')">EN</button>
-<button (click)="switchLang('ja')">JP</button>
-<button (click)="switchLang('ru')">RU</button>

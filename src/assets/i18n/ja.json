@@ -7,6 +7,7 @@
     },
     "homePage": {
         "title": "FLEのサイトへようこそ",
+        "bannerButton": "自分のレベルをテストする",
         "description": {
             "greeting": "お互いを<span class='highlight'>知りましょう</span>",
             "presentation": "私の名前はトトです。私はフランス語の先生で、ソルボンヌ大学の資格を持った専門家であり、8 年以上の経験を持つ DEFL/DALF 試験官です",

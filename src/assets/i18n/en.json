@@ -7,6 +7,7 @@
     },
     "homePage": {
         "title": "Welcome to my FLE website",
+        "bannerButton": "I test my level",
         "description": {
             "greeting": "Let's get <span class='highlight'>to know each other!</span>",
             "presentation": "My name is Toto and I am your French teacher, a qualified specialist from the Sorbonne and a DEFL/DALF examiner with over 8 years of experience.",

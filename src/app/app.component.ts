@@ -21,4 +21,12 @@ export const routes: Routes = [
 })
 export class AppComponent {
   title = 'french-school';
+
+  constructor(private translate: TranslateService) {
+    translate.addLangs(['fr', 'en', 'ja', 'ru']);
+    translate.setDefaultLang('fr');
+
+    const browserLang = translate.getBrowserLang() ?? 'fr';
+    translate.use(['fr', 'en', 'ja', 'ru'].includes(browserLang) ? browserLang : 'fr');
+  }
 }

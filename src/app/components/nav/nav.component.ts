@@ -10,16 +10,17 @@ import { TranslateService, TranslateModule } from '@ngx-translate/core';
   styleUrl: './nav.component.scss'
 })
 export class NavComponent {
-  constructor(private translate: TranslateService, private router: Router) {
-    translate.addLangs(['fr', 'en', 'ja', 'ru']);
-    translate.setDefaultLang('fr');
+  constructor(public translate: TranslateService, private router: Router) {
 
-    const browserLang = translate.getBrowserLang() ?? 'fr';
-    translate.use(['fr', 'en', 'ja', 'ru'].includes(browserLang) ? browserLang : 'fr');
   }
 
-  switchLang(lang: string) {
+  switchLang(event: Event) {
+    const lang = (event.target as HTMLSelectElement).value;
     this.translate.use(lang);
+  }
+
+  onGoToHomePage() {
+    this.router.navigateByUrl('');
   }
 
 }

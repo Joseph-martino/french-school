@@ -7,6 +7,7 @@
     },
     "homePage": {
         "title": "Bienvenue sur le site FLE",
+        "bannerButton": "Je teste mon niveau",
         "description": {
             "greeting": "Faisons <span class='highlight'>connaissance !</span>",
             "presentation": "Je m'appelle Toto et je suis votre professeur de français, spécialiste qualifié de la Sorbonne et examinateur DEFL/DALF avec plus de 8 ans d'expérience.",
